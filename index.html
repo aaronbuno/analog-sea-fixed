@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>analog-sea</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <header role="heading">
+        <img class="logo" src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png" alt="AnalogSea logo" />
+    </header>
+
+    <main role="main">
+
+        <section>
+            <form class="signup-form" action="/some-server-endpoint" method="post">
+
+                <legend>Sign up</legend>
+
+                <label for="email">Email</label>
+                <input placeholder="foo@bar.com" type="email" name="email" id="email" required />
+
+                <label for="password">Password</label>
+                <input placeholder="1234passw0rd" type="password" name="password" id="password" required />
+
+                <button type="submit">Sign up</button>
+
+                <p><a href="/forgot-password/new">Forgot Password?</a></p>
+            </form>
+        </section>
+
+        <p>Already have an account? <a href="/login">Log in</a></p>
+
+    </main>
+
+</body>
+
+</html>
